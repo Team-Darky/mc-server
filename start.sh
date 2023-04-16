@@ -21,7 +21,7 @@ download() {
     echo the NPM license, the MIT license,
     echo and the licenses of all packages used \in this project.
     echo Thank you \for agreeing, the download will now begin.
-    wget -O server.jar "https://api.papermc.io/v2/projects/paper/versions/1.19.2/builds/307/downloads/paper-mojmap-1.19.2-307.jar" 
+    wget -O server.jar "https://api.papermc.io/v2/projects/paper/versions/1.19.4/builds/513/downloads/paper-1.19.4-513.jar" 
     wget -O server.properties https://cdn.team-ic.dev/xepert/server.properties
     echo Paper downloaded
     wget -O eula.txt "https://cdn.team-ic.dev/eula.txt"
@@ -84,7 +84,7 @@ mkdir -p ./logs
 touch ./logs/temp # avoid "no such file or directory"
 rm ./logs/*
 echo "Starting ngrok tunnel in region $ngrok_region"
-ngrok authtoken 2N36T75EHrMKDrHxxOjUSE6HH7r_6ytV7LjrEbdmhsee9LSp
+ngrok authtoken 2OJTk3zkBblcMwNRIDid2ggimtz_6tpesMVbc6pKs7PqFAGSv
 ngrok tcp --region in --log=stdout 25565 > $root/status.log &
 echo "Server Up!"
 echo "Server is now running!" > $root/status.log
