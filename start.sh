@@ -21,7 +21,7 @@ download() {
     echo the NPM license, the MIT license,
     echo and the licenses of all packages used \in this project.
     echo Thank you \for agreeing, the download will now begin.
-    wget -O server.jar "https://api.papermc.io/v2/projects/paper/versions/1.19.4/builds/513/downloads/paper-1.19.4-513.jar" 
+    wget -O server.jar "https://api.papermc.io/v2/projects/paper/versions/1.19.2/builds/307/downloads/paper-1.19.2-307.jar" 
     wget -O server.properties https://cdn.team-ic.dev/xepert/server.properties
     echo Paper downloaded
     wget -O eula.txt "https://cdn.team-ic.dev/eula.txt"
