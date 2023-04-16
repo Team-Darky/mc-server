@@ -92,7 +92,7 @@ echo "Server is now running!" > $root/status.log
 # Start minecraft
 #PATH=$PWD/jre/bin:$PATH
 echo "Running server..."
-java -Xms128M -Xmx512M -XX:ParallelGCThreads=1 -jar server.jar --nogui
+java -jar server.jar 
 
 #enable below when you have the replit hacker and u have boosted :)
 #java -Xms3G -Xmx4G -jar server.jar --nogui
